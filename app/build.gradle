@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 17
+    buildToolsVersion "19.1.0"
+    defaultConfig {
+        applicationId "com.integra.RandomMusicPlayer"
+        minSdkVersion 17
+        targetSdkVersion 17
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            // Om Dec 8, 2014 after Android Studio upgrade from Beta 0.8.x.x to 1.0 Gradle complained
+            // about the two lines below, TODO: research more about proguard and fix
+            //runProguard false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+}
