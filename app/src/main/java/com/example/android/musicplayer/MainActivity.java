@@ -65,6 +65,7 @@ public class MainActivity extends Activity implements OnClickListener {
         mStopButton = (Button) findViewById(R.id.stopbutton);
         mEjectButton = (Button) findViewById(R.id.ejectbutton);
 
+        // wire the components to the listeners
         mPlayButton.setOnClickListener(this);
         mPauseButton.setOnClickListener(this);
         mSkipButton.setOnClickListener(this);
