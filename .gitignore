@@ -189,3 +189,5 @@ proguard/
 *.log
 
 
+#.idea ignores after reading in JetBrains site - 09/01/2015
+.idea/workspace.xml
